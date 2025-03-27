@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a1f44; /* Azul oscuro elegante */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login_container {
+    background-color: #1e3a5f; /* Azul medio */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d0e0ff; /* Azul claro */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #87a8d0;
+    border-radius: 5px;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #0a1f44; /* Texto azul oscuro */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-enviar {
+    background-color: #4a90e2; /* Azul vibrante */
+    color: #ffffff;
+}
+
+.btn-registro {
+    background-color: #66a3ff; /* Azul más claro */
+    color: #ffffff;
+}
+
+.btn-enviar:hover, .btn-registro:hover {
+    opacity: 0.8;
+}
+
+/* Adaptación para dispositivos móviles */
+@media (max-width: 480px) {
+    .login_container {
+        width: 90%;
+    }
+    input, button {
+        font-size: 14px;
+    }
+}
